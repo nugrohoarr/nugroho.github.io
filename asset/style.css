@@ -8,9 +8,10 @@ body {
     background-color: #EBEBEB;
 }
 /* navbar */
+
+/* sticky navbar */
 header.sticky {
     padding: 5px 100px;
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -22,6 +23,7 @@ header.sticky .logo,
 header.sticky ul li a {
     color: #7FB5FF;
 }
+/* end sticky */
 header {
     display: flex;
     background-color: #7FB5FF;
@@ -75,7 +77,7 @@ main {
     margin: 150px;
     margin-left: 10px;
     font-family: 'lato', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .content article span {
     color: #7FB5FF;
